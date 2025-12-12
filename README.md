@@ -26,7 +26,6 @@ A systematic evaluation pipeline has been implemented to train and test multiple
 To reproduce the analysis:
 1. Clone the repository.
 2. Install the dependencies listed in `requirements.txt`.
-3. Download the dataset
-4. Run the scripts in `Diabeto2.0` for preprocessing, pipeline building, and evaluation.
-5. Generated plots and results will be saved in the `plots/` and `results/` folders.
+3. Run the scripts in `Diabeto2.0` for preprocessing, pipeline building, and evaluation.
+ Generated plots and results will be saved in the `plots/` and `results/` folders.
 
