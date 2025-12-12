@@ -18,7 +18,7 @@ Features are grouped into numerical, ordinal, and nominal types. Pipelines are u
 A systematic evaluation pipeline has been implemented to train and test multiple classifiers, compute performance metrics (accuracy, precision, recall, F1 score), plot ROC and precision-recall curves, and save confusion matrices. Hyperparameter tuning is also incorporated for each model using GridSearchCV with 5-fold cross-validation.
 
 ## Directory Structure
-- `data/` : Contains the results CSV files.  
+- `data/` : Contains the metrcis table as CSV files.  
 - `Baseline/ - SMOTE/ - Hyper/` : Contains generated ROC/PR curves and confusion matrices.  
 - `diabeto2.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation.  
 
