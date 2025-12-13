@@ -21,7 +21,7 @@ A systematic evaluation pipeline has been implemented to train and test multiple
 - `data/` : Contains the resulting metrics table as CSV files.  
 - `Baseline/ - SMOTE/ - Hyper/` : Contains generated ROC/PR curves and confusion matrices.  
 - `diabeto2.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation.
-- `diabeto3.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation with parallel training to reduce final tuning time for hyperparameters optimization (add joblib library to run the parallelization).  
+- `diabeto3.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation with parallel training to reduce final tuning time for hyperparameters optimization (install joblib library to run the parallelization).  
 
 ## Usage
 To reproduce the analysis:
