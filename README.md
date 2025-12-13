@@ -18,14 +18,15 @@ Features are grouped into numerical, ordinal, and nominal types. Pipelines are u
 A systematic evaluation pipeline has been implemented to train and test multiple classifiers, compute performance metrics (accuracy, precision, recall, F1 score), plot ROC and precision-recall curves, and save confusion matrices. Hyperparameter tuning is also incorporated for each model using GridSearchCV with 5-fold cross-validation.
 
 ## Directory Structure
-- `data/` : Contains the metrcis table as CSV files.  
+- `data/` : Contains the resulting metrics table as CSV files.  
 - `Baseline/ - SMOTE/ - Hyper/` : Contains generated ROC/PR curves and confusion matrices.  
-- `diabeto2.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation.  
+- `diabeto2.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation.
+- `diabeto3.0` : Jupiter Notebook for preprocessing, pipelines, and evaluation with parallel training to reduce final tuning time for hyperparameters optimization.  
 
 ## Usage
 To reproduce the analysis:
 1. Clone the repository.
 2. Install the dependencies listed in `requirements.txt`.
-3. Run the scripts in `Diabeto2.0` for preprocessing, pipeline building, and evaluation.
- Generated plots and results will be saved in the `plots/` and `results/` folders.
+3. Run the scripts in `Diabeto2.0`/`Diabeto3.0` for preprocessing, pipeline building, and evaluation.
+ Generated plots and results will be saved in the `Baseline/Smote/Hyper` and `data/` folders.
 
