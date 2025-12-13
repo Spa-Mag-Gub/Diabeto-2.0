@@ -1,7 +1,7 @@
-,Model,Accuracy,Precision,Recall,F1 Score,Training Time (s),Best Params
-0,Logistic Regression,0.8868,0.9288986784140969,0.8785833333333334,0.9030406852248394,78.84,"{'model__C': 1, 'model__class_weight': None, 'model__penalty': 'l2', 'model__solver': 'saga'}"
-1,KNN,0.84435,0.935679968624375,0.79525,0.8597684580386504,457.79,"{'model__metric': 'manhattan', 'model__n_neighbors': 11, 'model__weights': 'uniform'}"
-2,Random Forest,0.91985,0.9999038369073949,0.8665,0.9284343051029064,1794.79,"{'model__max_depth': 12, 'model__max_features': 'sqrt', 'model__min_samples_split': 2, 'model__n_estimators': 120}"
-3,Linear SVM,0.88665,0.9284267981336385,0.8788333333333334,0.9029496125690312,54.81,"{'model__C': 1, 'model__class_weight': None}"
-4,MLP,0.9173,0.9946452476572959,0.8668333333333333,0.9263514115237332,908.61,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__batch_size': 128, 'model__early_stopping': True, 'model__hidden_layer_sizes': (50,), 'model__learning_rate': 'adaptive', 'model__max_iter': 300}"
-5,XGBoost,0.9199,1.0,0.8665,0.9284757567639967,232.48,"{'model__colsample_bytree': 0.8, 'model__gamma': 0, 'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 120, 'model__subsample': 0.8}"
+Model,Accuracy,Precision,Recall,F1 Score,Training Time (s),Best Params
+Logistic Regression,0.8868,0.9288986784140969,0.8785833333333334,0.9030406852248394,167.94,"{'model__C': 1, 'model__class_weight': None, 'model__penalty': 'l2', 'model__solver': 'saga'}"
+KNN,0.84435,0.935679968624375,0.79525,0.8597684580386504,1014.51,"{'model__metric': 'manhattan', 'model__n_neighbors': 11, 'model__weights': 'uniform'}"
+Random Forest,0.91985,0.9999038369073949,0.8665,0.9284343051029064,2262.47,"{'model__max_depth': 12, 'model__max_features': 'sqrt', 'model__min_samples_split': 2, 'model__n_estimators': 120}"
+Linear SVM,0.88665,0.9284267981336385,0.8788333333333334,0.9029496125690312,114.12,"{'model__C': 1, 'model__class_weight': None}"
+MLP,0.9173,0.9946452476572959,0.8668333333333333,0.9263514115237332,1325.09,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__batch_size': 128, 'model__early_stopping': True, 'model__hidden_layer_sizes': (50,), 'model__learning_rate': 'adaptive', 'model__max_iter': 300}"
+XGBoost,0.91985,0.9999038369073949,0.8665,0.9284343051029064,512.68,"{'model__colsample_bytree': 0.8, 'model__gamma': 0, 'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__n_estimators': 120, 'model__subsample': 0.8}"
